@@ -23,7 +23,9 @@ contract TodoList {
   );
 
   constructor() public {
-    createTask("Check out dappuniversity.com");
+    createTask("SYMCA Block chain project");
+    createTask("Devan Khandagale");
+    createTask("Arya Varma");
   }
 
   function createTask(string memory _content) public {
